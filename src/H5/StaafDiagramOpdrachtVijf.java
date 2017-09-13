@@ -11,7 +11,7 @@ public class StaafDiagramOpdrachtVijf extends Applet {
     public void init(){
         Valerie = 40;
         Jeroen = 100;
-        Hans = 70;
+        Hans = 80;
     }
     public void paint(Graphics g){
         g.drawRect(200, 20, 150, 160);
