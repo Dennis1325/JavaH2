@@ -20,10 +20,14 @@ public class Huis extends Applet {
         g.drawRect(225, 210, 75, 40);
         g.drawLine(225, 210, 225, 280);
         g.drawOval(220, 180, 3, 3);
+        g.drawLine(240, 85 ,240, 35);
+        g.drawLine(240, 35, 230, 35);
+        g.drawLine(230, 35, 230, 70);
         g.setColor(Color.red);
         g.fillRect(225, 210, 75, 17);
         g.setColor(Color.blue);
         g.fillRect(225, 240, 75, 17);
+
 
 
 
