@@ -10,7 +10,7 @@ public class StaafDiagramOpdrachtVijf extends Applet {
 
     public void init(){
         Valerie = 40;
-        Jeroen = 100;
+        Jeroen = 160;
         Hans = 80;
     }
     public void paint(Graphics g){

@@ -8,11 +8,15 @@ public class JavaOpdracht62 extends Applet{
     double uur;
     double dag;
     int jaar;
+    double UrenInDag;
+    double DagenInJaar;
     public  void init(){
         seconden = 60;
+        UrenInDag = 24;
+        DagenInJaar = 365;
         uur = (seconden*seconden);
-        dag = (seconden*seconden*24);
-        jaar = (seconden*seconden*24*365);
+        dag = (seconden*seconden*UrenInDag);
+        jaar = (int) (seconden*seconden*UrenInDag*DagenInJaar);
     }
     public  void paint(Graphics g){
 
